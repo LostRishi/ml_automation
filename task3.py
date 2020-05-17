@@ -86,8 +86,8 @@ score = custom_model.evaluate(X_test, y_test, verbose=0)
 print('Test loss:', score[0])
 print('Test accuracy:', score[1])
 
-
-# In[ ]:
+if(score[1]<98):
+	exit()
 
 
 
